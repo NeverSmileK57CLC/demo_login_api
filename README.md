@@ -7,4 +7,9 @@
 - Run server: rails server
 
 Ex API call:
+- API registor user
+Method: POST:
+http://localhost:3000/api/users?email=ngoc@gmail.com&password=123123
+- API login
+Method: POST:
 http://localhost:3000/api/sessions?email=ngoc@gmail.com&password=123123
